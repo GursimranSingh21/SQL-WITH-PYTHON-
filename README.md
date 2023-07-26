@@ -5,7 +5,7 @@ The revised Python script is a professional Hangman game with MySQL database int
 Key Features:
 
 Database Connection:
-The script establishes a connection to a MySQL server running on localhost, using the username "root" and a specified password. If there is an error in connecting to the server, it will display an appropriate error message and exit gracefully.
+The script establishes a connection to a MySQL server running on localhost, using the username "****" and a specified password. If there is an error in connecting to the server, it will display an appropriate error message and exit gracefully.
 
 Record Keeping:
 The script defines a record_move function to record the user's game moves into the MySQL database. Each move, along with its move number, guessed letter, and result (correct/incorrect), is stored in a separate table named after the user's name. If there is an error in executing the SQL query, it handles the exception and rolls back the transaction to maintain data integrity.
